@@ -1,0 +1,17 @@
+The following imports are used in the notebook.
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+import statsmodels.formula.api as smf
+import statsmodels.api as sm
+from statsmodels.stats.outliers_influence import OLSInfluence
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.model_selection import train_test_split
+from statsmodels.tools.eval_measures import rmse
+from sklearn import metrics
+from sklearn.metrics import mean_squared_error
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn import preprocessing
+from statsmodels.tools.eval_measures import mse
